@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(pikachu.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+  animation: fadein 5s;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40 h1 {
+  font-size: 30px;
+  color: #d41010;
+  text-align: center;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #09c28b;
+  padding: 30px;
+  color: #921396;
+}
+
+.col-60 {
+  background: #eed121;
+
+}
+
+#flecha{
+  font-size: 60px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#juego{
+  background:#eed121;
+  width: 600px;
+  height: 600px;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+.piezas-rompecabezas{ 
+  float: left;
+  height: 197px;
+  width: 197px;
+}
+.imagen-rompecabeza{
+  width: 100%;
+  height: 197px;
+}
+
+h2{
+  color: #342ac4;
+  font-size: 20px;
+  text-align: left;
+}
+#footer{
+  background:#359c43;
+}
+#objetivo{
+  text-align: center;
+}
+
+.imagen-objetivo{
+  background-color: rgb(39, 224, 15);
+  width: 50%;
+}
+.ventanaEmergente{
+  text-align: start;
+  margin-left: 20px;
+  
+}
+.titulo-emergente{
+  color: red;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.parrafo-emergente{
+  color:rgb(187, 23, 146);
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
